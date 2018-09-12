@@ -44,7 +44,7 @@ ccache --show-stats
 ./test/blockstore/blockstore-test
 ./test/blobstore/blobstore-test
 ./test/cryfs/cryfs-test
+./test/cryfs-cli/cryfs-cli-test
 
 # TODO Also run once fixed
 # ./test/fspp/fspp-test
-# ./test/cryfs-cli/cryfs-cli-test
