@@ -3,6 +3,9 @@ Version 0.11.0 (unreleased)
 Build changes:
 * Switch to Conan package manager
 
+Improvements:
+* Use atomic file writes to write cipher blocks. This improves resiliency against data corruption when the CryFS process is killed in the middle of a write operation.
+
 New features:
 * Add support for atime mount options (noatime, strictatime, relatime, atime, nodiratime). As before, relatime is the default.
 
