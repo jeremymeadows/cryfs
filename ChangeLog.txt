@@ -6,6 +6,9 @@ Build changes:
 New features:
 * Add support for atime mount options (noatime, strictatime, relatime, atime, nodiratime). As before, relatime is the default.
 
+Other:
+* Updated to range-v3 0.10.0
+* Updated to spdlog 1.6.1
 
 Version 0.10.2
 ---------------
